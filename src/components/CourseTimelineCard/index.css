@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.course-heading-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.course-time-container {
+  display: flex;
+}
+.tags-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.icon {
+  align-self: center;
+  font-size: 16px;
+  margin-right: 2px;
+}
+.tag {
+  background-color: #e6e4e4;
+  margin-right: 14px;
+  margin-bottom: 14px;
+  color: #1e293b;
+  padding-right: 4px;
+  padding-left: 4px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-radius: 4px;
+}
+.duration {
+  align-self: center;
+  font-size: 16px;
+}
+.description {
+  color: #1e293b;
+  font-size: 18px;
+}
+.course-container {
+  width: 600px;
+}
+
+.heading {
+  font-size: 22px;
+}
